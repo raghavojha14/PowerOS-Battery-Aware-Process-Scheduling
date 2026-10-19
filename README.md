@@ -1,30 +1,30 @@
-# ⚡ PowerOS — Battery-Aware Process Scheduling Simulator
+# PowerOS — Battery-Aware Process Scheduling Simulator
 
 **PowerOS** is a web-based Operating System simulator that demonstrates how CPU scheduling algorithms affect process performance and simulated battery energy consumption.
 
-The project combines traditional CPU scheduling techniques with a Battery-Aware Adaptive Scheduling (BAAS) approach to compare execution metrics, visualize process scheduling, and understand the relationship between CPU utilization and power consumption.
+The project combines traditional CPU scheduling algorithms with a Battery-Aware Adaptive Scheduling (BAAS) approach. It allows users to simulate process execution, compare scheduling results, and observe how CPU utilization relates to estimated power consumption.
 
-## ✨ Features
+## Features
 
-- **📊 Interactive Dashboard** — View battery status, energy consumption, CPU utilization, and scheduling performance metrics.
-- **⚙️ Process Management** — Add, edit, and manage processes with configurable arrival times, burst times, priorities, and other scheduling parameters.
-- **🖥️ CPU Scheduling Simulator** — Simulate processes using FCFS, Shortest Job First (SJF), Round Robin, and Priority Scheduling.
-- **🔋 Battery & Power Monitoring** — Explore simulated battery capacity, energy usage, and power-related metrics.
-- **🧠 Battery-Aware Adaptive Scheduling (BAAS)** — Compare an adaptive scheduling approach with conventional CPU scheduling algorithms.
-- **📈 Algorithm Comparison** — Compare waiting time, turnaround time, response time, makespan, and CPU utilization.
-- **📉 Gantt Chart Visualization** — Understand process execution order and scheduling timelines visually.
-- **📝 Simulation History** — Review previous simulation results.
-- **📄 Academic Report** — Generate a structured report of simulation results.
-- **🧪 Automated Tests** — Validate scheduling logic and metric consistency.
+- **Interactive Dashboard:** Displays battery status, energy consumption, CPU utilization, and scheduling performance metrics.
+- **Process Management:** Add, edit, and manage processes with configurable arrival times, burst times, priorities, and other scheduling parameters.
+- **CPU Scheduling Simulator:** Simulates processes using FCFS, Shortest Job First (SJF), Round Robin, and Priority Scheduling.
+- **Battery and Power Monitoring:** Displays simulated battery capacity, energy usage, and power-related metrics.
+- **Battery-Aware Adaptive Scheduling (BAAS):** Compares an adaptive scheduling approach with conventional CPU scheduling algorithms.
+- **Algorithm Comparison:** Compares waiting time, turnaround time, response time, makespan, and CPU utilization.
+- **Gantt Chart Visualization:** Displays process execution order and scheduling timelines.
+- **Simulation History:** Allows users to review previous simulation results.
+- **Academic Report:** Generates a structured report of simulation results.
+- **Automated Tests:** Helps verify scheduling logic and metric consistency.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React, TypeScript
 - **Build Tool:** Vite
 - **Styling:** CSS, Tailwind CSS
-- **Testing:** Project scheduling and consistency tests
+- **Testing:** Scheduling and consistency tests
 
-## 🧮 Scheduling Algorithms
+## Scheduling Algorithms
 
 | Algorithm | Description |
 |---|---|
@@ -32,11 +32,11 @@ The project combines traditional CPU scheduling techniques with a Battery-Aware 
 | SJF | Selects the process with the shortest CPU burst time. |
 | Round Robin | Allocates CPU time using a configurable time quantum. |
 | Priority Scheduling | Selects processes according to their priority. |
-| BAAS | Explores battery-aware adaptive scheduling and compares its results with conventional algorithms. |
+| BAAS | Implements a battery-aware adaptive scheduling approach for comparison with conventional algorithms. |
 
-## 📊 Performance Metrics
+## Performance Metrics
 
-PowerOS calculates and displays scheduling metrics such as:
+PowerOS calculates and displays the following metrics:
 
 - **Waiting Time:** Time a process spends waiting for CPU execution.
 - **Turnaround Time:** Total time from process arrival to completion.
@@ -46,9 +46,9 @@ PowerOS calculates and displays scheduling metrics such as:
 - **Energy Consumption:** Estimated energy used during the simulation.
 - **Battery Level:** Simulated remaining battery capacity.
 
-> **Note:** Battery levels and energy consumption are simulated estimates. They do not represent real-time measurements of your laptop's physical battery.
+**Note:** Battery levels and energy consumption are simulated estimates. They do not represent real-time measurements of the laptop's physical battery.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -56,7 +56,7 @@ Install the following before running the project:
 
 - [Node.js](https://nodejs.org/) — preferably a current LTS version
 - npm, which is included with Node.js
-- [Git](https://git-scm.com/) (optional, for cloning the repository)
+- [Git](https://git-scm.com/) — optional, for cloning the repository
 
 ### Installation
 
@@ -84,41 +84,35 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed in your terminal, usually `http://localhost:5173/`.
+Open the local URL displayed in the terminal, usually `http://localhost:5173/`.
 
-## 🧪 Testing
+## Testing
 
-Run the available test suite using the test script configured in `package.json`. For example, if the project uses Vitest:
+Run the test suite using the test script configured in `package.json`. For example, if the project uses Vitest:
 
 ```bash
 npm test
 ```
 
-To create a production build:
+To create a production build, run:
 
 ```bash
 npm run build
 ```
 
-## 🎯 Project Objectives
+## Project Objectives
 
 PowerOS aims to demonstrate:
 
 - How different CPU scheduling algorithms influence process execution and performance.
 - How scheduling decisions can be evaluated alongside simulated energy consumption.
-- How an adaptive scheduling strategy can be compared with traditional algorithms.
-- How operating system concepts can be presented through an interactive web interface.
+- How an adaptive scheduling strategy can be compared with traditional scheduling methods.
+- How operating system concepts can be demonstrated through an interactive web interface.
 
-## 🎓 Academic Context
+## Academic Context
 
-This project is developed as an educational Operating Systems project to explore CPU scheduling, performance analysis, and battery-aware process management through simulation.
+PowerOS is an educational Operating Systems project developed to explore CPU scheduling, performance analysis, and battery-aware process management through simulation.
 
-## 👩‍💻 Author
+## Author
 
-**Tanishi Raj**
-
-GitHub: [@tanishiraj321](https://github.com/tanishiraj321)
-
-## 📜 License
-
-No license has been specified yet. Unless a license is added to this repository, reuse and redistribution are subject to applicable copyright law.
+**Raghav Ojha**
