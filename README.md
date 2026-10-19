@@ -63,7 +63,7 @@ Install the following before running the project:
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/tanishiraj321/PowerOS.git
+git clone https://github.com/raghavojha14/PowerOS-Battery-Aware-Process-Scheduling.git
 ```
 
 **2. Open the project directory**
